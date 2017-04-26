@@ -14,23 +14,31 @@ from watson_developer_cloud import TextToSpeechV1
 
 
 conversation = ConversationV1(
-    username='81cae901-ee0e-4066-b333-c6d9cc5532ec',
-    password='NCdy2rD8GQ5N',
-    version='2017-02-03')
+    username='8f852f62-ded3-4c89-b696-f6999670f391',
+    # username='81cae901-ee0e-4066-b333-c6d9cc5532ec',
+    password='wMCxakn17KSZ',
+    # password='NCdy2rD8GQ5N',
+    version='2017-04-24')
 
-conv_workspace_id = 'e5fa2b42-e839-4e1b-9c6d-4d3ca9a93330'
+conv_workspace_id = 'fdf0e0e7-3d19-4e3f-9a66-074143755a32'
+# conv_workspace_id = 'e5fa2b42-e839-4e1b-9c6d-4d3ca9a93330'
 context={}
 
 tone_analyzer = ToneAnalyzerV3(
-    username = '20c2903e-48a9-4fd5-8f0b-5e699fa5343e',
-    password = 'ZC2WBeLbXUXs',
+    username = '976ebca7-68c3-4ca2-abcc-d0d80d79419c',
+    # username = '20c2903e-48a9-4fd5-8f0b-5e699fa5343e',
+    password = 'dTi3SDLcPfwe',
+    # password = 'dTi3SDLcPfwe',
+    # password = 'ZC2WBeLbXUXs',
     version = '2016-05-19')
 
 #maintainToneHistoryInContext = True 
 
 text_to_speech = TextToSpeechV1(
-    username='8921eb13-5eb4-4286-9add-5a7870ba4ecf',
-    password='tKJBMhuw42nL',
+    username='f4f78f13-490f-4ea4-b7a8-d5ebf470011d',
+    # username='8921eb13-5eb4-4286-9add-5a7870ba4ecf',
+    password='pr0IqFp70Dyl',
+    # password='tKJBMhuw42nL',
     x_watson_learning_opt_out=True)
 
 
