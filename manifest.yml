@@ -1,5 +1,5 @@
 ---
 applications:
- - name: botcompliance
+ - name: botcompliance4
    random-route: true
    memory: 128M
