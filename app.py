@@ -55,7 +55,6 @@ def main_page():
 		#tone = tone_analyzer.tone( text = request.form['message'])
 		#conversation_payload = tone_detection.updateUserTone(payload, tone, maintainToneHistoryInContext)
 		#print(json.dumps(tone,indent=2))
-		context = {}
 		#context = {
 	#		"user":tone['document_tone']['tone_categories']
 	#	}
