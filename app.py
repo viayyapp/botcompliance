@@ -30,10 +30,6 @@ app = Flask(__name__, static_url_path='/static')
 def main_page():
 
 	if request.method == 'GET':
-		#url = "https://ehnsarmecmpre01.extnet.ibm.com/api.php?query=2442"
-		#the_page = requests.get(url).content
-		#return the_page
-#		return render_template("index2.html")
 #		url = "https://ehnsarmecmpre01.extnet.ibm.com/api.php?query=2442"
 #		the_page = requests.get(url).content
 #		return the_page
